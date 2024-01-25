@@ -26,6 +26,7 @@ export default function CustomDrawer(props) {
                     Bem-Vindo!
                 </Text>
             </View>
+            <DrawerItemList {...props}/>
         </DrawerContentScrollView>
     )
 }
